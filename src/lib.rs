@@ -8,6 +8,9 @@ extern crate sha3;
 
 mod commitments;
 mod group;
+mod errors;
+mod scalar;
+mod math;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
