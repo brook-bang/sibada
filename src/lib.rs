@@ -11,6 +11,8 @@ mod group;
 mod errors;
 mod scalar;
 mod math;
+mod random;
+mod transcript;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
